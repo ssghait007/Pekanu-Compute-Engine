@@ -1,6 +1,6 @@
 import React from "react";
 import Task from './Task';
-const tasks= ["Fill This Tank in 2 Days","Make a Omellate in 10 minutes","Make this assignment in 10 days ","Make this chart in 2days"];
+const tasks= ["Host a MERN Website on EC2","Matrix Multiplication Task of 1000x1000 Matrix","Encryption of 10x10 Matrix","Run a flask backend on Elastic Bean"];
 const Dashboard = () => {
   return (
     <>
