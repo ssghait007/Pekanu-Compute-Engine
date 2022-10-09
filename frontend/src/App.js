@@ -1,25 +1,13 @@
-import logo from './logo.png';
-import './App.css';
-
-function App() {
+import React from 'react'
+import Dashboard from './Components/Dashboard'
+import Navbar from './Components/Navbar'
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Pekanu Compute Engine
-        </p>
-        <a
-          className="App-link"
-          href="https://pekanu.github.io"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Pekanu Research Group
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Navbar/>
+      <Dashboard/>
+    </>
+  )
 }
 
-export default App;
+export default App
