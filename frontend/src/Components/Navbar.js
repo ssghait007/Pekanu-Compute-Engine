@@ -15,11 +15,11 @@ const Navbar = () => {
       console.log(error);
     }
   };
-  // useEffect(() => {
-  //   connectWallet();
+  useEffect(() => {
+    connectWallet();
 
-  //   return () => {};
-  // }, [currentAccount]);
+    return () => {};
+  }, [currentAccount]);
 
   return (
     <>
