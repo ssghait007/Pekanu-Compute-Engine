@@ -54,7 +54,7 @@ const Navbar = () => {
               href="#"
               className="text-gray-500 hover:bg-gray-700 hover:text-white mx-3 px-3 py-2 rounded-md text-sm font-medium"
             >
-              Projects
+              Projectss
             </button>
 
             <button
